@@ -1,0 +1,45 @@
+  * {
+    margin: 0 !important;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 16px;
+  }
+
+  .kort {
+    width: 500px;
+    height: 270px;
+    background-color: #fff;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+
+  .information {
+    padding-bottom: 1.2rem;
+  }
+
+  @media screen and (max-width: 500px) {
+    .kort {
+      width: 110%;
+      position: absolute;
+      top: 80px;
+      left: -5%;
+      transform: rotate(90deg);
+    }
+    .information p {
+      font-size: 1rem;
+    }
+  }
+
+  .kortnummer {
+    font-size: 1.5rem;
+  }
+
+  #school {
+    padding: 5px 0;
+  }
+
+table th {
+  cursor: pointer;
+}
+
+

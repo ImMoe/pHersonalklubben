@@ -1,0 +1,71 @@
+body {
+  background-color: #b5dddc73;
+}
+
+.bg-primary {
+  background-color: #278d8b !important;
+  border-radius: 4px;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+}
+
+.jumbotron {
+  background-image: linear-gradient(177.81835859644855deg, #919191d2, #b5dddcbb),
+    url("../images/personalklubben.jpg");
+  background-size: contain;
+  background-position: center;
+  height: 55vh;
+  clip-path: polygon(0 0, 100% 0, 100% 80%, 0% 100%);
+  color: #fff;
+}
+
+#nyhetsflöde {
+  font-size: 1.5rem;
+  font-style: italic;
+  color: #3a9c9b;
+  font-weight: 600;
+}
+
+.card-header {
+  background-color: #b5dddc;
+  color: #3a9c9b;
+  font-weight: bold;
+}
+
+.card-footer {
+  background-color: #fff;
+  color: #222;
+  font-size: 0.9rem;
+  text-align: right;
+  border-top: 1px solid #b5dddc;
+}
+
+.navbar {
+  background-color: #fff;
+  -webkit-box-shadow: 0 8px 15px -15px #3a9c9b;
+  -moz-box-shadow: 0 8px 15px -15px #3a9c9b;
+  box-shadow: 0 8px 15px -15px #3a9c9b;
+}
+
+.navbar-brand,
+.nav-link,
+.navbar-toggler-icon {
+  color: #46918f !important;
+}
+
+.btn-primary {
+  background-color: #278d8b;
+  border-color: #278d8b;
+}
+
+.container {
+  position: relative;
+}
+
+a,
+.nav-link,
+.active {
+  color: #278d8b;
+  font-weight: bold;
+  text-align: right;
+}

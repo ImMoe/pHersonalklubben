@@ -1,0 +1,30 @@
+.kort {
+  background-color: #fff;
+  border-radius: 4px;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  margin-top: 20px;
+  -webkit-box-shadow: -1px 6px 23px -1px rgba(69, 153, 149, 1);
+  -moz-box-shadow: -1px 6px 23px -1px rgba(69, 153, 149, 1);
+  box-shadow: -1px 6px 23px -1px rgba(69, 153, 149, 1);
+}
+
+#card-image {
+  width: 150px;
+}
+
+@media screen and (max-width: 500px) {
+  .kort {
+    font-size: 0.9rem;
+    width: 75%;
+    height: 235px;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%) rotate(90deg);
+    margin-top: 50px;
+  }
+  #card-image {
+    width: 100px;
+  }
+}
